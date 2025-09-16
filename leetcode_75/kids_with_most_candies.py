@@ -1,5 +1,12 @@
-def kidsWithCandies(candies, extraCandies):
+def kidsWithCandies(candies:list[int], extraCandies: int) -> list[bool]:
   results = []
+  largest = max(candies)
+  
+  for kid in candies:
+    if kid + extraCandies >= largest:
+      results.append(True)
+    else:
+      results.append(False)
   
   return results
 
