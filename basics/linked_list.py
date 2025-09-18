@@ -82,7 +82,7 @@ class LinkedList:
     for _ in range(index):
       temp = temp.next
       
-    return temp.value
+    return temp
   
   def set_value(self, index, value):
     if index < 0 or index >= self.length:
@@ -96,9 +96,57 @@ class LinkedList:
     return temp.value
       
   
-  #def insert(self, index, value):
-  
-  
+  def insert(self, index, value):
+    if index < 0 or index >= self.length:
+      return False
+    if index == 0:
+      return self.prepend(value)
+    if index == self.length:
+      return self.append(value)
+    
+    new_node = Node(value)
+    temp = self.get(index-1)
+    new_node.next = temp.next
+    temp.next = new_node
+    self.length += 1
+    return True
+    
+  def remove(self, index):
+    if index < 0 or index >= self.length:
+      return None
+    if self.length == 0:
+      return None
+    if index == 0:
+      return self.pop_first()
+    if index == self.length - 1:
+      return self.pop()
+    
+    temp = self.get(index)
+    prev = self.get(index-1)
+    prev.next = temp.next
+    temp.next = None
+    self.length -= 1
+    return temp
+    
+  def reverse(self):
+    if self.length == 0:
+      return None
+    if self.length == 1:
+      return self.head()
+    
+    temp = self.head
+    self.head = self.tail
+    self.tail = temp
+    after = temp.next
+    before = None
+    for _ in range(self.length):
+      after = temp.next
+      temp.next = before
+      before = temp
+      temp = after
+      
+    
+    
 
 myLinkedList = LinkedList(4)
 myLinkedList.append(3)
@@ -107,6 +155,10 @@ myLinkedList.append(6)
 myLinkedList.prepend(9)
 
 myLinkedList.set_value(2, 42)
+
+myLinkedList.insert(2, 69)
+
+myLinkedList.reverse()
 
 myLinkedList.print_list()
 
