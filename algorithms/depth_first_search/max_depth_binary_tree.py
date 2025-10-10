@@ -27,8 +27,8 @@ def maxDepth(root: TreeNode):
 tree_test = TreeNode(3)
 tree_test.left = TreeNode(9)
 tree_test.right = TreeNode(20)
-tree_test.left.left = TreeNode(15)
-tree_test.left.right = TreeNode(7)
+tree_test.right.left = TreeNode(15)
+tree_test.right.right = TreeNode(7)
 
 tree_test.print_tree()
 
