@@ -42,62 +42,83 @@ class InterviewPrep:
 
 ## 📚 Problem Categories
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-### 🌳 **Tree & Graph**
-- Binary Tree Traversals
-- Depth-First Search (DFS)
-- Breadth-First Search (BFS)
-- Tree Visualization Tools
+### 🎯 **Core Data Structures & Algorithms**
 
-### 🔗 **Linked Lists**
-- Two Pointer Techniques
-- List Manipulation
-- Cycle Detection
+</div>
 
-### 🏃 **Fast & Slow Pointers**
-- Floyd's Cycle Detection
-- Finding Middle Elements
-- Palindrome Detection
+<details>
+<summary><strong>🌳 Trees & Graphs</strong> - <em>Master hierarchical data & graph traversals</em></summary>
 
-### 🔍 **Search & Sorting**
-- Binary Search Variants
-- Efficient Sorting Algorithms
-- Search Optimizations
+```
+🔹 Binary Tree Traversals     🔹 Tree Visualization Tools
+🔹 Depth-First Search (DFS)   🔹 Path Finding Algorithms  
+🔹 Breadth-First Search (BFS) 🔹 Graph Cycle Detection
+```
+</details>
 
-</td>
-<td width="50%">
+<details>
+<summary><strong>🔗 Linked Lists & Pointers</strong> - <em>Navigate linear data structures efficiently</em></summary>
 
-### 🪟 **Sliding Window**
-- Maximum Subarray Problems
-- String Pattern Matching
-- Optimization Problems
+```
+🔹 Two Pointer Techniques     🔹 Floyd's Cycle Detection
+🔹 Fast & Slow Pointers      🔹 List Manipulation
+🔹 Palindrome Detection      🔹 Finding Middle Elements
+```
+</details>
 
-### 🗂️ **Hash Maps & Sets**
-- Frequency Counting
-- Two Sum Variations
-- Set Operations
+<details>
+<summary><strong>🪟 Sliding Window & Arrays</strong> - <em>Optimize subarray & substring problems</em></summary>
 
-### ➕ **Prefix Sum**
-- Subarray Sum Problems
-- Range Query Optimization
-- Cumulative Calculations
+```
+🔹 Maximum Subarray Problems  🔹 String Pattern Matching
+🔹 Fixed Window Algorithms    🔹 Variable Window Techniques
+🔹 Optimization Problems      🔹 Substring Searches
+```
+</details>
 
-### 🔄 **Recursion**
-- Base Case Design
-- Recursive Tree Traversals
-- Backtracking Algorithms
+<details>
+<summary><strong>🗂️ Hash Maps & Sets</strong> - <em>Master O(1) lookups & frequency problems</em></summary>
 
-### 🧮 **Dynamic Programming**
-- Memoization Techniques
-- Bottom-up Approaches
-- Optimization Problems
+```
+🔹 Frequency Counting         🔹 Two Sum Variations
+🔹 Set Operations            🔹 Anagram Detection
+🔹 Duplicate Finding         🔹 Group Anagrams
+```
+</details>
 
-</td>
-</tr>
-</table>
+<details>
+<summary><strong>➕ Mathematical Patterns</strong> - <em>Prefix sums, recursion & mathematical thinking</em></summary>
+
+```
+🔹 Prefix Sum Arrays         🔹 Base Case Design
+🔹 Range Query Optimization  🔹 Recursive Tree Traversals
+🔹 Cumulative Calculations   🔹 Backtracking Algorithms
+```
+</details>
+
+<details>
+<summary><strong>🔍 Search & Sorting</strong> - <em>Efficient searching & ordering algorithms</em></summary>
+
+```
+🔹 Binary Search Variants    🔹 Quick Sort & Merge Sort
+🔹 Search Optimizations      🔹 Custom Comparators
+🔹 Rotated Array Search      🔹 Kth Element Problems
+```
+</details>
+
+<details>
+<summary><strong>🧮 Advanced Algorithms</strong> - <em>Dynamic programming & complex optimization</em></summary>
+
+```
+🔹 Memoization Techniques    🔹 Bottom-up Approaches
+🔹 State Machine DP          🔹 Optimization Problems
+🔹 2D DP Arrays             🔹 Space-Optimized Solutions
+```
+</details>
+
+---
 
 ## 🚀 Quick Start
 
