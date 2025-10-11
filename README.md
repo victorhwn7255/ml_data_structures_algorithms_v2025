@@ -21,18 +21,6 @@
 
 </div>
 
-## 🌟 Why This Repo?
-
-In the rapidly evolving world of AI and Machine Learning, **coding fundamentals remain the foundation** of technical interviews. Whether you're applying to:
-
-- 🏢 **FAANG Companies** (Google, Meta, Amazon, Netflix, Apple)
-- 🤖 **AI/ML Startups** (OpenAI, Anthropic, Hugging Face)
-- 🏛️ **Research Labs** (DeepMind, Microsoft Research)
-- 📊 **Data-driven Companies** (Spotify, Uber, Airbnb)
-
-This repository is your **one-stop solution** for mastering the coding challenges that stand between you and your dream role.
-
-## 🎨 What Makes This Special?
 
 ```python
 class InterviewPrep:
@@ -58,7 +46,7 @@ class InterviewPrep:
 <tr>
 <td width="50%">
 
-### 🌳 **Tree & Graph Algorithms**
+### 🌳 **Tree & Graph**
 - Binary Tree Traversals
 - Depth-First Search (DFS)
 - Breadth-First Search (BFS)
@@ -66,8 +54,13 @@ class InterviewPrep:
 
 ### 🔗 **Linked Lists**
 - Two Pointer Techniques
-- Fast & Slow Pointers
 - List Manipulation
+- Cycle Detection
+
+### 🏃 **Fast & Slow Pointers**
+- Floyd's Cycle Detection
+- Finding Middle Elements
+- Palindrome Detection
 
 ### 🔍 **Search & Sorting**
 - Binary Search Variants
@@ -86,6 +79,16 @@ class InterviewPrep:
 - Frequency Counting
 - Two Sum Variations
 - Set Operations
+
+### ➕ **Prefix Sum**
+- Subarray Sum Problems
+- Range Query Optimization
+- Cumulative Calculations
+
+### 🔄 **Recursion**
+- Base Case Design
+- Recursive Tree Traversals
+- Backtracking Algorithms
 
 ### 🧮 **Dynamic Programming**
 - Memoization Techniques
@@ -122,10 +125,19 @@ ml_interview_prep/
 │   ├── 🪟 sliding_window/
 │   ├── 🔗 linked_list/
 │   ├── 🗂️ hash_map/
+│   ├── 🏃 fast_and_slow/
+│   ├── ➕ prefix_sum/
+│   ├── 🔄 recursion/
 │   └── 📊 sorting/
 ├── 🏛️ data_structures/
 │   ├── binary_search_tree.py
 │   ├── linked_list.py
+│   ├── doubly_linked_list.py
+│   ├── hash_table.py
+│   ├── heap.py
+│   ├── pointers.py
+│   ├── queue.py
+│   ├── stack.py
 │   └── graph.py
 ├── 🛠️ utils/
 │   └── tree_utils.py  # Beautiful tree visualization
@@ -170,15 +182,6 @@ Found a bug? Have a better solution? Want to add more problems?
 - [ ] **Dynamic Programming**: Coming soon!
 - [ ] **Advanced Graph Algorithms**: Coming soon!
 
-## 🎖️ Success Stories
-
-> *"This repo helped me land my ML Engineer role at Google! The tree visualization was a game-changer during interviews."* 
-> 
-> **- Anonymous Contributor**
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
