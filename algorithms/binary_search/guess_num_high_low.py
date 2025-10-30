@@ -1,0 +1,17 @@
+from utils.guess_api import guess
+
+def guessNumber(n: int):
+  low = 0
+  high = n
+  
+  while low <= high:
+    mid = (low+high)//2
+    
+    if guess(mid) == -1:
+      high = mid - 1
+    elif guess(mid) == 1:
+      low = mid + 1
+    else:
+      return mid
+  
+  return -1
