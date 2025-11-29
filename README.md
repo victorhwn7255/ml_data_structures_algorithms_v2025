@@ -1,6 +1,6 @@
 <div align="center">
 
-![NTU Banner](./assets/ntu_banner.png)
+![NTU Banner](.assets/NTU_Logo.png)
 
 # 🧠 ML Interview Prep Arsenal 🚀
 
