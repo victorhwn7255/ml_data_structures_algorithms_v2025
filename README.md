@@ -1,5 +1,7 @@
 <div align="center">
 
+![NTU Banner](https://upload.wikimedia.org/wikipedia/en/f/f9/Nanyang_Technological_University.png)
+
 # 🧠 ML Interview Prep Arsenal 🚀
 
 <p align="center">
