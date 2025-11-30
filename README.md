@@ -43,6 +43,7 @@ class InterviewPrep:
             "🔄 Multiple solution approaches"
         ]
 ```
+<br>
 
 ## 📚 Problem Categories
 
@@ -140,24 +141,7 @@ class InterviewPrep:
 🔹 Bit Manipulation          🔹 Mathematical Optimizations
 ```
 </details>
-
----
-
-## 🚀 Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/ml_interview_prep.git
-
-# Navigate to the project
-cd ml_interview_prep
-
-# Run any algorithm
-python algorithms/depth_first_search/max_depth_binary_tree.py
-
-# Visualize trees beautifully
-python algorithms/depth_first_search/leaf_similar_trees.py
-```
+<br>
 
 ## 🏗️ Repository Structure
 
@@ -201,10 +185,11 @@ ml_interview_prep/
 │   └── tree_utils.py  # Beautiful tree visualization
 └── 📋 README.md
 ```
+<br>
 
 ## 🎯 Featured Solutions
 
-### 🌟 Tree Visualization Magic
+### 🌟 Tree Visualization
 Our custom tree visualization tool makes debugging and understanding tree problems a breeze:
 
 ```python
@@ -220,6 +205,7 @@ Each solution includes:
 - 💾 **Space Complexity**: Memory usage breakdown  
 - 🎨 **Multiple Approaches**: Iterative vs Recursive
 - 🧪 **Test Cases**: Edge cases covered
+<br>
 
 ## 🤝 Contributing
 
@@ -230,6 +216,7 @@ Found a bug? Have a better solution? Want to add more problems?
 3. 💾 Commit your changes (`git commit -m 'Add amazing solution'`)
 4. 📤 Push to the branch (`git push origin feature/amazing-solution`)
 5. 🎉 Open a Pull Request
+<br>
 
 ## 📈 Progress Tracking
 
@@ -274,6 +261,11 @@ Found a bug? Have a better solution? Want to add more problems?
   <strong>Happy Coding! 🚀</strong>
 </p>
 
-<sub>Created and managed by <a href="https://www.linkedin.com/in/vic-hee-17a86b378/">Vic</a>, in collaboration with NTU LeetCode Club (by CCDS)</sub>
+<p align="center">
+  <sub>
+    <strong>Created and managed by <a href="https://www.linkedin.com/in/vic-hee-17a86b378/" style="text-decoration: none; color: #0366d6;">Vic</a></strong><br>
+    <em>In collaboration with NTU LeetCode Club (CCDS)</em>
+  </sub>
+</p>
 
 </div>
