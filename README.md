@@ -1,14 +1,16 @@
 <div align="center">
 
-![NTU Banner](./assets/NTU_Logo.png)
+![NTU Banner](./assets/ntu_banner.png)
 
-# 🧠 ML Interview Prep Arsenal 🚀
+<br>
+
+# AI/ML Interview Prep Arsenal
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Data_Structures-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white" alt="Data Structures" />
   <img src="https://img.shields.io/badge/Algorithms-4ECDC4?style=for-the-badge&logo=algolia&logoColor=white" alt="Algorithms" />
-  <img src="https://img.shields.io/badge/Machine_Learning-FF9F43?style=for-the-badge&logo=tensorflow&logoColor=white" alt="ML" />
+  <img src="https://img.shields.io/badge/Machine_Learning-FF9F43?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML" />
 </p>
 
 <p align="center">
@@ -54,9 +56,10 @@ class InterviewPrep:
 <summary><strong>🌳 Trees & Graphs</strong> - <em>Master hierarchical data & graph traversals</em></summary>
 
 ```
-🔹 Binary Tree Traversals     🔹 Tree Visualization Tools
-🔹 Depth-First Search (DFS)   🔹 Path Finding Algorithms  
-🔹 Breadth-First Search (BFS) 🔹 Graph Cycle Detection
+🔹 Depth-First Search (DFS)   🔹 Binary Tree Traversals
+🔹 Breadth-First Search (BFS) 🔹 Tree Visualization Tools  
+🔹 Graph DFS & BFS           🔹 Connected Components
+🔹 Lowest Common Ancestor    🔹 Path Finding & Cycle Detection
 ```
 </details>
 
@@ -64,9 +67,10 @@ class InterviewPrep:
 <summary><strong>🔗 Linked Lists & Pointers</strong> - <em>Navigate linear data structures efficiently</em></summary>
 
 ```
-🔹 Two Pointer Techniques     🔹 Floyd's Cycle Detection
-🔹 Fast & Slow Pointers      🔹 List Manipulation
-🔹 Palindrome Detection      🔹 Finding Middle Elements
+🔹 Two Pointer Techniques    🔹 Fast & Slow Pointers
+🔹 List Reversal & Merging   🔹 Cycle Detection (Floyd's)
+🔹 Middle Element Finding    🔹 Palindrome Detection
+🔹 Odd-Even List Reordering  🔹 Node Deletion Patterns
 ```
 </details>
 
@@ -74,9 +78,10 @@ class InterviewPrep:
 <summary><strong>🪟 Sliding Window & Arrays</strong> - <em>Optimize subarray & substring problems</em></summary>
 
 ```
-🔹 Maximum Subarray Problems  🔹 String Pattern Matching
 🔹 Fixed Window Algorithms    🔹 Variable Window Techniques
-🔹 Optimization Problems      🔹 Substring Searches
+🔹 Maximum Subarray Problems  🔹 Substring Pattern Matching
+🔹 Longest Subarray Variants  🔹 String Vowel Optimization
+🔹 Consecutive Elements       🔹 Window Size Optimization
 ```
 </details>
 
@@ -84,39 +89,55 @@ class InterviewPrep:
 <summary><strong>🗂️ Hash Maps & Sets</strong> - <em>Master O(1) lookups & frequency problems</em></summary>
 
 ```
-🔹 Frequency Counting         🔹 Two Sum Variations
-🔹 Set Operations            🔹 Anagram Detection
-🔹 Duplicate Finding         🔹 Group Anagrams
+🔹 Frequency Counting         🔹 Unique Occurrence Detection
+🔹 Array Difference Finding   🔹 String Anagram Problems
+🔹 Row-Column Pair Matching   🔹 Majority Element Finding
+🔹 Set Operations            🔹 Close String Validation
 ```
 </details>
 
 <details>
-<summary><strong>➕ Mathematical Patterns</strong> - <em>Prefix sums, recursion & mathematical thinking</em></summary>
+<summary><strong>🔙 Backtracking & Recursion</strong> - <em>Systematic exploration & recursive patterns</em></summary>
 
 ```
-🔹 Prefix Sum Arrays         🔹 Base Case Design
-🔹 Range Query Optimization  🔹 Recursive Tree Traversals
-🔹 Cumulative Calculations   🔹 Backtracking Algorithms
-```
-</details>
-
-<details>
-<summary><strong>🔍 Search & Sorting</strong> - <em>Efficient searching & ordering algorithms</em></summary>
-
-```
-🔹 Binary Search Variants    🔹 Quick Sort & Merge Sort
-🔹 Search Optimizations      🔹 Custom Comparators
-🔹 Rotated Array Search      🔹 Kth Element Problems
+🔹 Combination Sum Problems   🔹 Letter Combinations
+🔹 Recursive Tree Operations  🔹 Factorial Calculations
+🔹 Divide & Conquer          🔹 Solution Space Exploration
+🔹 Base Case Design          🔹 State Backtracking
 ```
 </details>
 
 <details>
-<summary><strong>🧮 Advanced Algorithms</strong> - <em>Dynamic programming & complex optimization</em></summary>
+<summary><strong>🔍 Binary Search & Sorting</strong> - <em>Efficient searching & ordering algorithms</em></summary>
 
 ```
-🔹 Memoization Techniques    🔹 Bottom-up Approaches
-🔹 State Machine DP          🔹 Optimization Problems
-🔹 2D DP Arrays             🔹 Space-Optimized Solutions
+🔹 BST Search & Operations    🔹 Peak Element Finding
+🔹 Optimization Problems      🔹 Guess Number Games
+🔹 Spell-Potion Pairing      🔹 Eating Speed Optimization
+🔹 Bubble, Selection, Insert  🔹 Comparison-based Sorting
+```
+</details>
+
+<details>
+<summary><strong>🧮 Dynamic Programming</strong> - <em>Optimization through memoization & bottom-up approaches</em></summary>
+
+```
+🔹 Fibonacci Sequences        🔹 Tribonacci Variations
+🔹 House Robber Problems      🔹 Climbing Stairs Optimization
+🔹 Domino & Tromino Tiling    🔹 2D Matrix Problems
+🔹 Stock Trading Strategies   🔹 String Edit Distance
+🔹 Longest Common Subsequence 🔹 Unique Path Counting
+```
+</details>
+
+<details>
+<summary><strong>🏆 Advanced Data Structures</strong> - <em>Heaps, stacks, queues & specialized structures</em></summary>
+
+```
+🔹 Priority Queue (Heap)      🔹 Monotonic Stack Problems
+🔹 Stack-based Parsing        🔹 Queue Simulations
+🔹 Trie (Prefix Tree)         🔹 Interval Scheduling
+🔹 Bit Manipulation          🔹 Mathematical Optimizations
 ```
 </details>
 
@@ -143,15 +164,29 @@ python algorithms/depth_first_search/leaf_similar_trees.py
 ```
 ml_interview_prep/
 ├── 🌳 algorithms/
-│   ├── 🔍 depth_first_search/
-│   ├── 🌊 breadth_first_search/
-│   ├── 🪟 sliding_window/
-│   ├── 🔗 linked_list/
-│   ├── 🗂️ hash_map/
-│   ├── 🏃 fast_and_slow/
-│   ├── ➕ prefix_sum/
-│   ├── 🔄 recursion/
-│   └── 📊 sorting/
+│   ├── 🔙 backtracking/           # Combination sum, letter combinations
+│   ├── 🔍 binary_search/          # BST operations, peak finding, optimization
+│   ├── 🔢 bit_manipulation/       # Counting bits, XOR operations  
+│   ├── 🌊 breadth_first_search/   # Level-order tree traversal, BFS
+│   ├── 🔍 depth_first_search/     # Tree DFS, path finding, recursion
+│   ├── 🔄 dynamic_programming/    # DP classics: fibonacci, house robber
+│   ├── 🏃 fast_and_slow/          # Two pointer techniques, cycle detection
+│   ├── 🌐 graph_bfs/              # Graph traversal, shortest paths
+│   ├── 🌐 graph_dfs/              # Connected components, graph exploration
+│   ├── 🗂️ hash_map/               # Frequency counting, lookup optimizations
+│   ├── ⏱️ intervals/               # Interval merging, scheduling problems
+│   ├── 🔗 linked_list/            # List manipulation, reversal, cycles
+│   ├── 📊 monotonic_stack/        # Stack-based optimization problems
+│   ├── 📈 multi_dimensional/      # 2D DP, matrix problems, stock trading
+│   ├── ➕ prefix_sum/             # Cumulative sums, range queries
+│   ├── 🏆 priority_queue/         # Heap operations, top-K problems
+│   ├── 🔄 queue/                  # FIFO operations, BFS implementations
+│   ├── 🔄 recursion/              # Recursive patterns, divide & conquer
+│   ├── 🪟 sliding_window/         # Subarray optimization, string patterns
+│   ├── 📊 sorting/                # Fundamental sorting algorithms
+│   ├── 📚 stack/                  # LIFO operations, parentheses matching
+│   ├── 🌲 trie/                   # Prefix trees, autocomplete systems
+│   └── 👥 two_pointers/           # Array manipulation, palindromes
 ├── 🏛️ data_structures/
 │   ├── binary_search_tree.py
 │   ├── linked_list.py
@@ -198,24 +233,47 @@ Found a bug? Have a better solution? Want to add more problems?
 
 ## 📈 Progress Tracking
 
-- [x] **Trees & Graphs**: 15+ problems solved
-- [x] **Linked Lists**: 10+ problems solved
-- [x] **Hash Maps**: 8+ problems solved
-- [x] **Sliding Window**: 6+ problems solved
-- [ ] **Dynamic Programming**: Coming soon!
-- [ ] **Advanced Graph Algorithms**: Coming soon!
+**📊 Total: 90+ algorithm implementations across 20+ categories**
+
+### Core Fundamentals ✅
+- [x] **Trees & Graphs**: 13+ problems (DFS, BFS, graph traversal)
+- [x] **Linked Lists**: 6+ problems (reversal, cycles, two pointers)
+- [x] **Hash Maps**: 5+ problems (frequency, lookups, anagrams)
+- [x] **Two Pointers**: 9+ problems (palindromes, merging, duplicates)
+
+### Advanced Topics ✅
+- [x] **Dynamic Programming**: 9+ problems (fibonacci, house robber, 2D DP)
+- [x] **Binary Search**: 6+ problems (BST operations, optimization)
+- [x] **Sliding Window**: 4+ problems (subarray optimization)
+- [x] **Backtracking**: 3+ problems (combination sum, letter combos)
+
+### Specialized Structures ✅
+- [x] **Priority Queue/Heap**: 4+ problems (top-K, scheduling)
+- [x] **Stack & Queue**: 7+ problems (monotonic stack, parsing)
+- [x] **Trie**: 2+ problems (prefix trees, autocomplete)
+- [x] **Bit Manipulation**: 3+ problems (XOR, counting bits)
+
+### Problem-Solving Patterns ✅
+- [x] **Prefix Sum**: 3+ problems (range queries, cumulative sums)
+- [x] **Intervals**: 2+ problems (scheduling, merging)
+- [x] **Sorting Algorithms**: 3+ fundamental sorts
+- [x] **Fast & Slow Pointers**: 2+ problems (cycle detection)
+- [x] **Graph Algorithms**: 7+ problems (DFS/BFS variations)
+- [x] **Recursion**: 2+ problems (divide & conquer patterns)
+
+### Mathematical & Multi-dimensional ✅
+- [x] **Multi-dimensional DP**: 4+ problems (matrix, stock trading)
+- [x] **Monotonic Stack**: 2+ problems (temperature, stock span)
 
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repo if it helped you ace your interviews! ⭐
-
 <p>
   <strong>Happy Coding! 🚀</strong>
 </p>
 
-<sub>Built with ❤️ by AI/ML engineers, for AI/ML engineers</sub>
+<sub>Created and managed by <a href="https://www.linkedin.com/in/vic-hee-17a86b378/">Vic</a>, in collaboration with NTU LeetCode Club (by CCDS)</sub>
 
 </div>
