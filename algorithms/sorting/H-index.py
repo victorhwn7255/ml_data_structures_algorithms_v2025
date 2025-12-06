@@ -9,8 +9,8 @@ def hIndex(citations: list[int]):
 
   return len(citations)
 
-citations_1 = [3,0,6,1,5]
-citations_2 = [1,3,1]
+doctor_paulinka = [6, 1, 3, 0, 4, 5, 7, 9, 11]
+#citations_2 = [1,3,1]
 
-print(hIndex(citations_1))
-print(hIndex(citations_2))
+print("the H-Index of Dr Paulinka is: ", hIndex(doctor_paulinka))
+#print(hIndex(citations_2))
