@@ -15,3 +15,4 @@ def groupAnagrams(strs: list[str]):
 
 print(groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
 print(groupAnagrams(["a"]))
+print(groupAnagrams([""]))
