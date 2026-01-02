@@ -16,6 +16,13 @@ def build_linked_list(values):
   
   return head
 
+def linked_list_to_list(head):
+    result = []
+    while head:
+        result.append(head.val)
+        head = head.next
+    return result
+
 def create_test_case(values, pos):
       head = build_linked_list(values)
 
