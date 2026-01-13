@@ -1,3 +1,52 @@
+def build_tree(arr, TreeNode=None):
+    """
+    Build a binary tree from level-order array representation.
+    None values represent missing nodes.
+
+    Args:
+        arr: List representing tree in level-order (e.g., [5,4,8,11,None,13,4])
+        TreeNode: TreeNode class to use. If None, uses a default TreeNode class.
+
+    Example: [5,4,8,11,None,13,4] creates:
+         5
+        / \
+       4   8
+      /   / \
+     11  13  4
+    """
+    if not arr or arr[0] is None:
+        return None
+
+    # Use default TreeNode if not provided
+    if TreeNode is None:
+        class TreeNode:
+            def __init__(self, val=0, left=None, right=None):
+                self.val = val
+                self.left = left
+                self.right = right
+
+    root = TreeNode(arr[0])
+    queue = [root]
+    i = 1
+
+    while queue and i < len(arr):
+        node = queue.pop(0)
+
+        # Add left child
+        if i < len(arr) and arr[i] is not None:
+            node.left = TreeNode(arr[i])
+            queue.append(node.left)
+        i += 1
+
+        # Add right child
+        if i < len(arr) and arr[i] is not None:
+            node.right = TreeNode(arr[i])
+            queue.append(node.right)
+        i += 1
+
+    return root
+
+
 def display_tree_aux(node):
     if not node:
         return [], 0, 0, 0
