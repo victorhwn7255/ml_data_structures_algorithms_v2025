@@ -1,22 +1,19 @@
 def searchMatrix(matrix: list[list[int]], target: int):
   rows = len(matrix)
   cols = len(matrix[0])
+  left = 0
+  right = rows * cols - 1
   
-  if matrix[rows-1][0] < target:
-    target_row = rows-1
-  else:
-    target_row = 0
-  
-  for row in range(rows):
-    if matrix[row][0] == target:
+  while left <= right:
+    mid = (left + right) // 2
+    value = matrix[mid // cols][mid % cols]
+    
+    if value == target:
       return True
-    elif matrix[row][0] > target:
-      target_row = row - 1
-      break
-  
-  for col in range(cols):
-    if matrix[target_row][col] == target:
-      return True
+    elif value < target:
+      left = mid + 1
+    else:
+      right = mid - 1
     
   return False
 
